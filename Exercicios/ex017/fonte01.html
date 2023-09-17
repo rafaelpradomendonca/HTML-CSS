@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family:'Work Sans', Arial, Helvetica, sans-serif;
+            /*
+         Medidas absolutas
+         cm, mm, in, px, pt, pc
+         
+         Medidas relativas
+         em, ex, rem, vw, vh, %
+         16px geralmente é = 1em
+         USE a medida px ou em
+        */
+        font-size: 1em;
+        font-weight:bold ;
+        font-style: italic;
+        text-decoration: underline;
+        /* lighter, normal, bold, bolder*/
+        }
+        h1{
+
+            /* shorthand font
+            ORDEM: - font-style -> font-weight -> font-size -> font-family
+            
+            font-family:'Work Sans'sans-serif;
+            font-weight:bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+            font: italic bold 3em 'Work Sans',sans-serif
+        }
+        h2{
+            font: normal 2em 'work sans';
+        }
+        
+         
+       
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas reprehenderit repudiandae laborum, nam in sed numquam modi doloremque rerum! Corrupti reiciendis rem, veritatis magnam ullam rerum. Ipsa esse magni dignissimos? Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quae, harum nisi cupiditate aliquam tenetur minima excepturi ducimus quos eligendi quam eos optio esse alias. Odio laudantium ducimus quae expedita?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, velit. Atque obcaecati, ipsum in corrupti a totam laudantium dicta molestiae beatae consectetur vel et non perferendis asperiores earum reiciendis? Deleniti!</p>
+    <h2>Subtítulo do exercício </h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium, sunt fugiat. Adipisci, minus. Mollitia expedita est esse temporibus consectetur cum eveniet totam natus. Quasi pariatur, dolor illum consequuntur quae neque!</p>
+</body>
+</html>
