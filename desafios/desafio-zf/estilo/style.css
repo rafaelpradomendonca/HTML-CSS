@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700&family=Sriracha&display=swap');
+
+:root{
+    --fonte1: Verdana,Geneva, Tahoma, sans-serif;
+    --fonte2:'Passion One', cursive; 
+    --fonte3:'Sriracha', cursive;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html,body{
+
+    min-height: 100vh;
+    background-color: darkgray;
+    font-family: var(--fonte1);
+}
+
+header{
+    width: 100%;
+    
+    background-color: black;
+    color: yellow;
+    text-align: center;
+    position: fixed;
+    
+    
+}
+
+header > h1{
+    
+    font-variant: small-caps;
+    font-family: var(--fonte2);
+    font-size: 10vw;
+    
+}
+
+header > nav{
+    color: yellow;
+    text-decoration: none;
+    
+    padding: 10px;
+    font-weight: bold;
+    text-align: left;
+}
+
+a{
+    color: rgb(247, 132, 0);
+    text-decoration: none;
+    
+    padding: 10px;
+    font-weight: bold;
+    text-align: left; 
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--fonte3);
+    font-size: 1.5em;
+    background-attachment: fixed;
+    box-shadow:inset 6px 6px 13px 0px rgba(0, 0, 0, 0.555);
+}
+
+#img01{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../imagens/paes.jpg);
+    background-position: center center;
+}
+
+.paes >p{
+    padding-top: 20px;
+    color: black;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.397);
+    border-radius: 15px;
+}
+
+#img02{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../imagens/salada-para-acompanhar-carne-assada.jpg.webp);
+    background-position: center center;
+}
+
+.saladas > p{
+    color: black;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.397);
+    border-radius: 15px;
+}
+
+#img03{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../imagens/carne-bem-passada-20170106-01-copy.webp);
+    background-position: center center;
+}
+
+.carnes > p{
+    color: white;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.397);
+    border-radius: 15px;
+}
+
+#img04{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../imagens/sucos-diferentes.jpg);
+    background-position: center center;
+}
+
+#img04 > p{
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.397);
+    border-radius: 15px;
+}
+
+ul{
+    color: rgb(2, 41, 18);
+    list-style-position: inside;
+    text-indent: 15px;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
